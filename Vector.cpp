@@ -39,14 +39,14 @@ int main()
        cout<< p.first << " " << p.second << "\n ";
     }
 
-    for(int p=0; p<5;p++)
+    for(int p=0; p<pVec.size();p++)
     {
         cout<< pVec[p].first <<" "<< pVec[p].second << endl;
     }
 
-    vector<pair<int,string>> :: reverse_iterator rit = pVec.rbegin();//creating reverse iterator
-  //  for(;rit!=pVec.rend();rit++)
-       //  cout<<*rit<<" ";
+    vector<int> :: reverse_iterator rit = vec1.rbegin();//creating reverse iterator
+    for(;rit!=vec1.rend();rit++)
+         cout<<*rit<<" ";
 
 
 }
